@@ -50,6 +50,9 @@ Movies!, está basado en la arquitectura MVVM utilizando ideas de Clean architec
 
 ![500px-MVVMPattern](https://user-images.githubusercontent.com/70008618/185739962-87e177c3-f6c6-4a98-a605-bb5249c2b215.png)
 
+## Postman
+Se adjuntó una carpeta llamada [Postman](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/Postman) la cual contiene la colección de APIs utilizada para la creación de esta aplicación.
+
 ## Open API
 Movies!, utiliza [TheMovieDB API](https://developers.themoviedb.org/3/getting-started/introduction).
 
