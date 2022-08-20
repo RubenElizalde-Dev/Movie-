@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    tools:context=".ui.Splash_Fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieanimation"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:lottie_autoPlay="true"
+            app:lottie_imageAssetsFolder="/raw"
+            app:lottie_rawRes="@raw/splashanimation" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:id="@+id/ProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"/>
+
+        <TextView
+            android:id="@+id/textViewProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginHorizontal="16dp"
+            android:fontFamily="@font/gothammedium"
+            android:textSize="16dp"
+            android:text="¡Buscando tus peliculas favoritas!" />
+    </LinearLayout>
+
+</FrameLayout>
