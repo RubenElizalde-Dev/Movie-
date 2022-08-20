@@ -1,0 +1,102 @@
+{
+	"info": {
+		"_postman_id": "4dfed1c5-1342-4d6a-a745-393530879498",
+		"name": "Movies!",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17435677"
+	},
+	"item": [
+		{
+			"name": "Top rated movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}movie/top_rated?api_key={{API_KEY}}",
+					"host": [
+						"{{BASE_URL}}movie"
+					],
+					"path": [
+						"top_rated"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API_KEY}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movie detail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}movie/505?api_key={{API_KEY}}",
+					"host": [
+						"{{BASE_URL}}movie"
+					],
+					"path": [
+						"505"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API_KEY}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Now playing movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}movie/now_playing?api_key={{API_KEY}}",
+					"host": [
+						"{{BASE_URL}}movie"
+					],
+					"path": [
+						"now_playing"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API_KEY}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Popular movies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}movie/popular?api_key={{API_KEY}}",
+					"host": [
+						"{{BASE_URL}}movie"
+					],
+					"path": [
+						"popular"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{API_KEY}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
