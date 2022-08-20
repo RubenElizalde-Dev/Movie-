@@ -5,11 +5,11 @@ Una aplicación que te permitirá ver las reseña de tus películas favoritas, a
 ![ezgif-4-86035203c7](https://user-images.githubusercontent.com/70008618/185739284-de16c391-0902-4492-84b7-3c21e08e0532.gif)
 
 ## Descarga
-Ve a la carpeta [apk](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/apk) y descarga el archivo ***app-debug.apk*** e instalalo en tu celular Android.
+Ve a la carpeta [apk](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/apk) y descarga el archivo ***app-debug.apk*** e instálalo en tu celular Android.
 
 ## Tech stack
-- Nivel minimo SDK 21
-- Basado en [Kotlin](https://kotlinlang.org/) + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) para asyncrono.
+- Nivel mínimo SDK 21
+- Basado en [Kotlin](https://kotlinlang.org/) + [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) para asíncrono.
 
 - Jetpack
     - Lifecycle - Observar los ciclos de vida de Android y manejar los 
@@ -34,11 +34,11 @@ Ve a la carpeta [apk](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/a
   - Arquitectura MVVM (View - DataBinding - ViewModel - Model)
   - Bindables - Kit de enlace de datos de Android para notificar cambios de datos a las capas de la interfaz de usuario.
 
-- [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - Construccion de REST APIs.
+- [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - Construcción de REST APIs.
 
 - [Material-Components](https://github.com/material-components/material-components-android) - Componentes de Material design para crear animaciones y CardView.
 
-- [Secrets Gradle](https://developers.google.com/maps/documentation/android-sdk/secrets-gradle-plugin) - Kit de seguridad para ocultar datos sensibles de la aplicacion como lo seria una **API_KEY**
+- [Secrets Gradle](https://developers.google.com/maps/documentation/android-sdk/secrets-gradle-plugin) - Kit de seguridad para ocultar datos sensibles de la aplicacion como lo sería una **API_KEY**
 
 - Vistas personalizadas
    - [Carousel](https://github.com/sparrow007/CarouselRecyclerview) - Carousel personalizado en 3D
@@ -46,14 +46,14 @@ Ve a la carpeta [apk](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/a
    - [Lottie](https://github.com/airbnb/lottie-android) - Animaciones 
 
 ## Arquitectura
-Movies! esta basado en la arquitectura MVVM utilizando ideas de Clean architecture.
+Movies!, está basado en la arquitectura MVVM utilizando ideas de Clean architecture.
 
 ![500px-MVVMPattern](https://user-images.githubusercontent.com/70008618/185739962-87e177c3-f6c6-4a98-a605-bb5249c2b215.png)
 
 ## Open API
-Movies! utiliza [TheMovieDB API](https://developers.themoviedb.org/3/getting-started/introduction).
+Movies!, utiliza [TheMovieDB API](https://developers.themoviedb.org/3/getting-started/introduction).
 
-[TheMovieDB API](https://developers.themoviedb.org/3/getting-started/introduction) provee una interfaz RESTful API que nos da el acceso a objetos altamente detallados para poder construir miles de lineas relacionadas a peliculas.
+[TheMovieDB API](https://developers.themoviedb.org/3/getting-started/introduction) provee una interfaz RESTful API que nos da el acceso a objetos altamente detallados para poder construir miles de líneas relacionadas a peliculas.
 
 ![gVZIvphd_400x400](https://user-images.githubusercontent.com/70008618/185739976-724cb851-fabf-4ff4-a4c7-592c59f7337c.jpg)
 
