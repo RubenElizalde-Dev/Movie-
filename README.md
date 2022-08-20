@@ -38,6 +38,8 @@ Ve a la carpeta [apk](https://github.com/RubenElizalde-Dev/MoviesApp/tree/main/a
 
 - [Material-Components](https://github.com/material-components/material-components-android) - Componentes de Material design para crear animaciones y CardView.
 
+- [Secrets Gradle](https://developers.google.com/maps/documentation/android-sdk/secrets-gradle-plugin) - Kit de seguridad para ocultar datos sensibles de la aplicacion como lo seria una **API_KEY**
+
 - Vistas personalizadas
    - [Carousel](https://github.com/sparrow007/CarouselRecyclerview) - Carousel personalizado en 3D
    - [Picasso](https://github.com/square/picasso) - Urls a ImageView
